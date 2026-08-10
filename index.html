@@ -3,82 +3,547 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>GOPI DIGITAL | Valangaiman</title>
+
 <meta name="description" content="GOPI DIGITAL - Digital Printing & Designing, Valangaiman.">
+
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-html{scroll-behavior:smooth}
-body{font-family:Arial,Helvetica,sans-serif;background:#070707;color:#fff;line-height:1.6}
-header{position:sticky;top:0;z-index:10;background:rgba(7,7,7,.94);backdrop-filter:blur(10px);border-bottom:1px solid #3a2b0b}
-.nav{max-width:1100px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between}
-.nav img{height:52px;width:52px;object-fit:contain;border-radius:50%}
-.navlinks a{color:#eee;text-decoration:none;margin-left:20px;font-size:14px}
-.navlinks a:hover{color:#f3c64b}
-.hero{min-height:78vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:60px 20px;background:radial-gradient(circle at 50% 20%,#3b2a08 0%,#111 28%,#070707 65%)}
-.hero img{width:min(210px,55vw);border-radius:18px;box-shadow:0 0 45px rgba(232,186,62,.18)}
-.gold{color:#e9bd4d}
-h1{font-size:clamp(42px,8vw,78px);letter-spacing:3px;margin-top:22px}
-.hero p{color:#cfcfcf;font-size:19px;margin:8px 0 26px}
-.btn{display:inline-block;padding:13px 24px;border-radius:30px;text-decoration:none;font-weight:bold;margin:5px;border:1px solid #d9ad3d}
-.btn.goldbtn{background:linear-gradient(135deg,#f7d56b,#b98619);color:#111}
-.btn.darkbtn{background:#121212;color:#f1ca59}
-section{max-width:1100px;margin:auto;padding:75px 20px}
-.title{text-align:center;font-size:34px;margin-bottom:35px;color:#edc451}
-.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:18px}
-.card{background:linear-gradient(145deg,#171717,#0e0e0e);border:1px solid #3a2b0b;border-radius:18px;padding:28px;text-align:center}
-.icon{font-size:34px;margin-bottom:10px}
-.card h3{color:#efc858;margin-bottom:8px}
-.card p{color:#aaa;font-size:14px}
-.contact{background:#0d0d0d;border-top:1px solid #241b08;border-bottom:1px solid #241b08}
-.contactbox{max-width:700px;margin:auto;text-align:center}
-.info{margin:15px 0;color:#ddd}
-footer{text-align:center;padding:25px;color:#777;font-size:13px}
-@media(max-width:650px){.navlinks a{margin-left:10px;font-size:12px}.nav img{height:45px;width:45px}}
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:Arial,Helvetica,sans-serif;
+  background:#070707;
+  color:#fff;
+  line-height:1.6;
+}
+
+header{
+  position:sticky;
+  top:0;
+  z-index:10;
+  background:rgba(7,7,7,.94);
+  backdrop-filter:blur(10px);
+  border-bottom:1px solid #3a2b0b;
+}
+
+.nav{
+  max-width:1100px;
+  margin:auto;
+  padding:12px 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+}
+
+.nav img{
+  height:52px;
+  width:52px;
+  object-fit:contain;
+  border-radius:50%;
+}
+
+.navlinks a{
+  color:#eee;
+  text-decoration:none;
+  margin-left:20px;
+  font-size:14px;
+}
+
+.navlinks a:hover{
+  color:#f3c64b;
+}
+
+.hero{
+  min-height:78vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  padding:60px 20px;
+  background:radial-gradient(
+    circle at 50% 20%,
+    #3b2a08 0%,
+    #111 28%,
+    #070707 65%
+  );
+}
+
+.hero img{
+  width:min(210px,55vw);
+  border-radius:18px;
+  box-shadow:0 0 45px rgba(232,186,62,.18);
+}
+
+.gold{
+  color:#e9bd4d;
+}
+
+h1{
+  font-size:clamp(42px,8vw,78px);
+  letter-spacing:3px;
+  margin-top:22px;
+}
+
+.hero p{
+  color:#cfcfcf;
+  font-size:19px;
+  margin:8px 0 26px;
+}
+
+.btn{
+  display:inline-block;
+  padding:13px 24px;
+  border-radius:30px;
+  text-decoration:none;
+  font-weight:bold;
+  margin:5px;
+  border:1px solid #d9ad3d;
+}
+
+.btn.goldbtn{
+  background:linear-gradient(135deg,#f7d56b,#b98619);
+  color:#111;
+}
+
+.btn.darkbtn{
+  background:#121212;
+  color:#f1ca59;
+}
+
+section{
+  max-width:1100px;
+  margin:auto;
+  padding:75px 20px;
+}
+
+.title{
+  text-align:center;
+  font-size:34px;
+  margin-bottom:35px;
+  color:#edc451;
+}
+
+/* SERVICES */
+
+.grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(210px,1fr));
+  gap:18px;
+}
+
+.card{
+  background:linear-gradient(145deg,#171717,#0e0e0e);
+  border:1px solid #3a2b0b;
+  border-radius:18px;
+  padding:28px;
+  text-align:center;
+  transition:.3s;
+}
+
+.card:hover{
+  transform:translateY(-5px);
+  border-color:#d9ad3d;
+  box-shadow:0 10px 30px rgba(232,186,62,.12);
+}
+
+.icon{
+  font-size:34px;
+  margin-bottom:10px;
+}
+
+.card h3{
+  color:#efc858;
+  margin-bottom:8px;
+}
+
+.card p{
+  color:#aaa;
+  font-size:14px;
+}
+
+/* PRODUCTS */
+
+.products{
+  background:#090909;
+}
+
+.product-card{
+  background:linear-gradient(145deg,#181818,#0c0c0c);
+  border:1px solid #4a360d;
+  border-radius:20px;
+  padding:32px 20px;
+  text-align:center;
+  transition:.3s;
+  min-height:190px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+.product-card:hover{
+  transform:translateY(-6px);
+  border-color:#e9bd4d;
+  box-shadow:0 12px 35px rgba(233,189,77,.15);
+}
+
+.product-icon{
+  width:65px;
+  height:65px;
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:linear-gradient(135deg,#f7d56b,#a97813);
+  color:#111;
+  font-size:28px;
+  margin-bottom:15px;
+  box-shadow:0 0 20px rgba(233,189,77,.12);
+}
+
+.product-card h3{
+  color:#f1ca59;
+  font-size:20px;
+  margin-bottom:7px;
+}
+
+.product-card p{
+  color:#999;
+  font-size:13px;
+}
+
+.product-btn{
+  margin-top:15px;
+  padding:9px 18px;
+  border-radius:20px;
+  background:#111;
+  color:#e9bd4d;
+  border:1px solid #80601d;
+  text-decoration:none;
+  font-size:13px;
+  font-weight:bold;
+}
+
+.product-btn:hover{
+  background:#e9bd4d;
+  color:#111;
+}
+
+/* CONTACT */
+
+.contact{
+  background:#0d0d0d;
+  border-top:1px solid #241b08;
+  border-bottom:1px solid #241b08;
+}
+
+.contactbox{
+  max-width:700px;
+  margin:auto;
+  text-align:center;
+}
+
+.info{
+  margin:15px 0;
+  color:#ddd;
+}
+
+/* FOOTER */
+
+footer{
+  text-align:center;
+  padding:25px;
+  color:#777;
+  font-size:13px;
+}
+
+/* MOBILE */
+
+@media(max-width:650px){
+
+  .navlinks a{
+    margin-left:10px;
+    font-size:12px;
+  }
+
+  .nav img{
+    height:45px;
+    width:45px;
+  }
+
+  .product-card{
+    min-height:175px;
+  }
+
+}
 </style>
 </head>
+
 <body>
+
+<!-- HEADER -->
+
 <header>
   <div class="nav">
+
     <img src="gopi-digital-logo.png" alt="GOPI DIGITAL logo">
+
     <div class="navlinks">
       <a href="#home">Home</a>
       <a href="#services">Services</a>
+      <a href="#products">Products</a>
       <a href="#contact">Contact</a>
     </div>
+
   </div>
 </header>
 
+
 <main>
+
+<!-- HERO -->
+
 <section class="hero" id="home">
+
   <div>
+
     <img src="gopi-digital-logo.png" alt="GOPI DIGITAL">
-    <h1><span class="gold">GOPI</span> DIGITAL</h1>
+
+    <h1>
+      <span class="gold">GOPI</span> DIGITAL
+    </h1>
+
     <p>Digital Printing & Designing</p>
-    <a class="btn goldbtn" href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL%2C%20I%20would%20like%20to%20enquire%20about%20your%20services." target="_blank">WhatsApp Us</a>
-    <a class="btn darkbtn" href="tel:+919488788066">Call Now</a>
+
+    <a
+      class="btn goldbtn"
+      href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL%2C%20I%20would%20like%20to%20enquire%20about%20your%20services"
+      target="_blank">
+      WhatsApp Us
+    </a>
+
+    <a
+      class="btn darkbtn"
+      href="tel:+919488788066">
+      Call Now
+    </a>
+
   </div>
+
 </section>
+
+
+<!-- SERVICES -->
 
 <section id="services">
+
   <h2 class="title">Our Services</h2>
+
   <div class="grid">
-    <div class="card"><div class="icon">🖨️</div><h3>Flex Printing</h3><p>Quality flex printing for banners, advertisements and events.</p></div>
-    <div class="card"><div class="icon">🖼️</div><h3>Photo Frames</h3><p>Photo printing and custom photo frame work.</p></div>
-    <div class="card"><div class="icon">💳</div><h3>Visiting Cards</h3><p>Professional visiting card designing and printing.</p></div>
-    <div class="card"><div class="icon">🎨</div><h3>Digital Designing</h3><p>Creative posters, invitations, banners and digital designs.</p></div>
+
+    <div class="card">
+      <div class="icon">🖨️</div>
+      <h3>Flex Printing</h3>
+      <p>Quality flex printing for banners, advertisements and events.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🖼️</div>
+      <h3>Photo Frames</h3>
+      <p>Photo printing and custom photo frame work.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">💳</div>
+      <h3>Visiting Cards</h3>
+      <p>Professional visiting card designing and printing.</p>
+    </div>
+
+    <div class="card">
+      <div class="icon">🎨</div>
+      <h3>Digital Designing</h3>
+      <p>Creative posters, invitations, banners and digital designs.</p>
+    </div>
+
   </div>
+
 </section>
+
+
+<!-- PRODUCTS -->
+
+<section class="products" id="products">
+
+  <h2 class="title">Our Products</h2>
+
+  <div class="grid">
+
+    <!-- PRODUCT 1 -->
+
+    <div class="product-card">
+
+      <div class="product-icon">🖨️</div>
+
+      <h3>Flex</h3>
+
+      <p>High Quality Flex Printing</p>
+
+      <a
+        class="product-btn"
+        href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL%2C%20I%20need%20Flex%20printing"
+        target="_blank">
+        Enquire on WhatsApp
+      </a>
+
+    </div>
+
+
+    <!-- PRODUCT 2 -->
+
+    <div class="product-card">
+
+      <div class="product-icon">✨</div>
+
+      <h3>Star Flex</h3>
+
+      <p>Premium Star Flex Printing</p>
+
+      <a
+        class="product-btn"
+        href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL%2C%20I%20need%20Star%20Flex"
+        target="_blank">
+        Enquire on WhatsApp
+      </a>
+
+    </div>
+
+
+    <!-- PRODUCT 3 -->
+
+    <div class="product-card">
+
+      <div class="product-icon">🖼️</div>
+
+      <h3>Photo Frame</h3>
+
+      <p>Valthumadal Photo Frame</p>
+
+      <a
+        class="product-btn"
+        href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL%2C%20I%20need%20a%20Photo%20Frame"
+        target="_blank">
+        Enquire on WhatsApp
+      </a>
+
+    </div>
+
+
+    <!-- PRODUCT 4 -->
+
+    <div class="product-card">
+
+      <div class="product-icon">📜</div>
+
+      <h3>Litho Poster</h3>
+
+      <p>Quality Litho Poster Printing</p>
+
+      <a
+        class="product-btn"
+        href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL%2C%20I%20need%20a%20Litho%20Poster"
+        target="_blank">
+        Enquire on WhatsApp
+      </a>
+
+    </div>
+
+
+    <!-- PRODUCT 5 -->
+
+    <div class="product-card">
+
+      <div class="product-icon">🎨</div>
+
+      <h3>Oil Poster</h3>
+
+      <p>Premium Oil Poster Printing</p>
+
+      <a
+        class="product-btn"
+        href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL%2C%20I%20need%20an%20Oil%20Poster"
+        target="_blank">
+        Enquire on WhatsApp
+      </a>
+
+    </div>
+
+
+    <!-- PRODUCT 6 -->
+
+    <div class="product-card">
+
+      <div class="product-icon">💳</div>
+
+      <h3>Visiting Card</h3>
+
+      <p>Professional Visiting Card Printing</p>
+
+      <a
+        class="product-btn"
+        href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL%2C%20I%20need%20a%20Visiting%20Card"
+        target="_blank">
+        Enquire on WhatsApp
+      </a>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- CONTACT -->
 
 <section class="contact" id="contact">
+
   <div class="contactbox">
+
     <h2 class="title">Contact GOPI DIGITAL</h2>
-    <div class="info">📞 <strong>9488788066</strong></div>
-    <div class="info">📍 Kuchipalayam Street, Valangaiman</div>
-    <a class="btn goldbtn" href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL" target="_blank">Chat on WhatsApp</a>
+
+    <div class="info">
+      📞 <strong>9488788066</strong>
+    </div>
+
+    <div class="info">
+      📍 Kuchipalayam Street, Valangaiman
+    </div>
+
+    <a
+      class="btn goldbtn"
+      href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL"
+      target="_blank">
+      Chat on WhatsApp
+    </a>
+
   </div>
+
 </section>
+
 </main>
 
-<footer>© 2026 GOPI DIGITAL • Valangaiman</footer>
+
+<footer>
+  © 2026 GOPI DIGITAL • Valangaiman
+</footer>
+
 </body>
 </html>
