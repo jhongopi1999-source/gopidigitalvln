@@ -1,52 +1,59 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
-<title>Gopi Digital | Flex Printing & Digital Designing in Valangaiman</title>
+<head>
 
-<meta
-  name="description"
-  content="Gopi Digital in Valangaiman offers flex printing, photo frames, visiting cards, invitation designs, litho posters, oil posters and digital printing services."
->
+  <meta charset="UTF-8">
 
-<link
-  rel="canonical"
-  href="https://gopidigitalvln.netlify.app/"
->
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
 
-<!-- Local Business SEO -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "LocalBusiness",
-  "name": "GOPI DIGITAL",
-  "description": "Digital printing and designing services including flex printing, photo frames, visiting cards, invitation designs, litho posters and oil posters.",
-  "url": "https://gopidigitalvln.netlify.app/",
-  "telephone": "+919488788066",
-  "image": "https://gopidigitalvln.netlify.app/gopi-digital-logo.png",
-  "address": {
-    "@type": "PostalAddress",
-    "streetAddress": "Kuchipalayam Street",
-    "addressLocality": "Valangaiman",
-    "addressCountry": "IN"
-  },
-  "sameAs": [
-    "https://www.instagram.com/sri_gopi_arts/"
-  ]
-}
-</script>
-
+  <title>Gopi Digital | Flex Printing & Digital Designing in Valangaiman</title>
 
   <meta
     name="description"
-    content="GOPI DIGITAL - Premium Digital Printing & Designing Services"
+    content="Gopi Digital in Valangaiman offers flex printing, photo frames, visiting cards, invitation designs, litho posters, oil posters and digital printing services."
   >
 
+  <link
+    rel="canonical"
+    href="https://gopidigitalvln.netlify.app/"
+  >
+
+  <!-- Local Business SEO -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "GOPI DIGITAL",
+    "description": "Digital printing and designing services including flex printing, photo frames, visiting cards, invitation designs, litho posters and oil posters.",
+    "url": "https://gopidigitalvln.netlify.app/",
+    "telephone": "+919488788066",
+    "image": "https://gopidigitalvln.netlify.app/gopi-digital-logo.png",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kuchipalayam Street",
+      "addressLocality": "Valangaiman",
+      "addressCountry": "IN"
+    },
+    "sameAs": [
+      "https://www.instagram.com/sri_gopi_arts/"
+    ]
+  }
+  </script>
+
   <style>
+
     * {
       margin: 0;
       padding: 0;
       box-sizing: border-box;
       scroll-behavior: smooth;
+    }
+
+    html {
+      overflow-x: hidden;
     }
 
     :root {
@@ -66,9 +73,15 @@
     body {
       font-family: Arial, Helvetica, sans-serif;
       background:
-        radial-gradient(circle at 50% 0%, #241600 0%, #080808 35%, #000 100%);
+        radial-gradient(
+          circle at 50% 0%,
+          #241600 0%,
+          #080808 35%,
+          #000 100%
+        );
       color: var(--white);
       overflow-x: hidden;
+      width: 100%;
     }
 
     /* =========================
@@ -82,8 +95,16 @@
       z-index: -2;
       overflow: hidden;
       background:
-        radial-gradient(circle at 20% 80%, rgba(255,69,0,.08), transparent 25%),
-        radial-gradient(circle at 80% 70%, rgba(255,140,0,.08), transparent 25%);
+        radial-gradient(
+          circle at 20% 80%,
+          rgba(255,69,0,.08),
+          transparent 25%
+        ),
+        radial-gradient(
+          circle at 80% 70%,
+          rgba(255,140,0,.08),
+          transparent 25%
+        );
     }
 
     .fire-background::before,
@@ -115,6 +136,7 @@
       from {
         transform: translateY(30px) scale(.9);
       }
+
       to {
         transform: translateY(-40px) scale(1.2);
       }
@@ -147,32 +169,97 @@
       opacity: 0;
     }
 
-    .particle:nth-child(1) { left: 5%; animation-duration: 5s; animation-delay: 0s; }
-    .particle:nth-child(2) { left: 12%; animation-duration: 7s; animation-delay: 1s; }
-    .particle:nth-child(3) { left: 20%; animation-duration: 6s; animation-delay: 2s; }
-    .particle:nth-child(4) { left: 29%; animation-duration: 8s; animation-delay: .5s; }
-    .particle:nth-child(5) { left: 38%; animation-duration: 5s; animation-delay: 2.5s; }
-    .particle:nth-child(6) { left: 47%; animation-duration: 7s; animation-delay: 1.5s; }
-    .particle:nth-child(7) { left: 56%; animation-duration: 6s; animation-delay: 3s; }
-    .particle:nth-child(8) { left: 65%; animation-duration: 8s; animation-delay: 1s; }
-    .particle:nth-child(9) { left: 74%; animation-duration: 5s; animation-delay: 2s; }
-    .particle:nth-child(10) { left: 83%; animation-duration: 7s; animation-delay: .2s; }
-    .particle:nth-child(11) { left: 91%; animation-duration: 6s; animation-delay: 3s; }
-    .particle:nth-child(12) { left: 97%; animation-duration: 8s; animation-delay: 1.2s; }
+    .particle:nth-child(1) {
+      left: 5%;
+      animation-duration: 5s;
+      animation-delay: 0s;
+    }
+
+    .particle:nth-child(2) {
+      left: 12%;
+      animation-duration: 7s;
+      animation-delay: 1s;
+    }
+
+    .particle:nth-child(3) {
+      left: 20%;
+      animation-duration: 6s;
+      animation-delay: 2s;
+    }
+
+    .particle:nth-child(4) {
+      left: 29%;
+      animation-duration: 8s;
+      animation-delay: .5s;
+    }
+
+    .particle:nth-child(5) {
+      left: 38%;
+      animation-duration: 5s;
+      animation-delay: 2.5s;
+    }
+
+    .particle:nth-child(6) {
+      left: 47%;
+      animation-duration: 7s;
+      animation-delay: 1.5s;
+    }
+
+    .particle:nth-child(7) {
+      left: 56%;
+      animation-duration: 6s;
+      animation-delay: 3s;
+    }
+
+    .particle:nth-child(8) {
+      left: 65%;
+      animation-duration: 8s;
+      animation-delay: 1s;
+    }
+
+    .particle:nth-child(9) {
+      left: 74%;
+      animation-duration: 5s;
+      animation-delay: 2s;
+    }
+
+    .particle:nth-child(10) {
+      left: 83%;
+      animation-duration: 7s;
+      animation-delay: .2s;
+    }
+
+    .particle:nth-child(11) {
+      left: 91%;
+      animation-duration: 6s;
+      animation-delay: 3s;
+    }
+
+    .particle:nth-child(12) {
+      left: 97%;
+      animation-duration: 8s;
+      animation-delay: 1.2s;
+    }
 
     @keyframes rise {
       0% {
         transform: translateY(0) scale(.3);
         opacity: 0;
       }
+
       15% {
         opacity: 1;
       }
+
       70% {
         opacity: .9;
       }
+
       100% {
-        transform: translateY(-110vh) translateX(80px) scale(1);
+        transform:
+          translateY(-110vh)
+          translateX(80px)
+          scale(1);
         opacity: 0;
       }
     }
@@ -211,6 +298,7 @@
       font-size: 14px;
       position: relative;
       transition: .3s;
+      white-space: nowrap;
     }
 
     nav a::after {
@@ -220,7 +308,12 @@
       bottom: -8px;
       width: 0;
       height: 2px;
-      background: linear-gradient(90deg, var(--fire), var(--gold));
+      background:
+        linear-gradient(
+          90deg,
+          var(--fire),
+          var(--gold)
+        );
       box-shadow: 0 0 10px var(--gold);
       transition: .3s;
     }
@@ -240,7 +333,7 @@
 
     section {
       min-height: 100vh;
-      padding: 110px 20px 80px;
+      padding: 100px 20px 60px;
       position: relative;
     }
 
@@ -251,7 +344,7 @@
 
     .section-title {
       text-align: center;
-      margin-bottom: 50px;
+      margin-bottom: 35px;
     }
 
     h2 {
@@ -260,7 +353,7 @@
       text-shadow:
         0 0 10px rgba(255,215,0,.5),
         0 0 25px rgba(255,69,0,.25);
-      margin-bottom: 12px;
+      margin-bottom: 10px;
     }
 
     .section-title p {
@@ -279,7 +372,8 @@
       justify-content: center;
       text-align: center;
       overflow: hidden;
-      padding-top: 100px;
+      padding-top: 90px;
+      padding-bottom: 50px;
     }
 
     .hero {
@@ -297,24 +391,31 @@
       top: 45%;
       transform: translate(-50%, -50%);
       border-radius: 50%;
-      background: radial-gradient(
-        circle,
-        rgba(255,140,0,.18),
-        rgba(255,69,0,.06),
-        transparent 70%
-      );
+      background:
+        radial-gradient(
+          circle,
+          rgba(255,140,0,.18),
+          rgba(255,69,0,.06),
+          transparent 70%
+        );
       filter: blur(20px);
-      animation: heroGlow 3s ease-in-out infinite alternate;
+      animation:
+        heroGlow 3s ease-in-out infinite alternate;
       z-index: -1;
     }
 
     @keyframes heroGlow {
       from {
-        transform: translate(-50%, -50%) scale(.8);
+        transform:
+          translate(-50%, -50%)
+          scale(.8);
         opacity: .5;
       }
+
       to {
-        transform: translate(-50%, -50%) scale(1.25);
+        transform:
+          translate(-50%, -50%)
+          scale(1.25);
         opacity: 1;
       }
     }
@@ -323,11 +424,12 @@
       width: min(230px, 65vw);
       max-height: 230px;
       object-fit: contain;
-      margin-bottom: 25px;
+      margin-bottom: 18px;
       filter:
         drop-shadow(0 0 10px rgba(255,215,0,.7))
         drop-shadow(0 0 30px rgba(255,69,0,.35));
-      animation: logoFire 2.5s ease-in-out infinite alternate;
+      animation:
+        logoFire 2.5s ease-in-out infinite alternate;
     }
 
     @keyframes logoFire {
@@ -348,23 +450,24 @@
 
     .hero h1 {
       font-size: clamp(48px, 10vw, 100px);
-      letter-spacing: 4px;
+      letter-spacing: 3px;
       font-weight: 900;
-      line-height: 1;
-      margin-bottom: 18px;
+      line-height: .95;
+      margin-bottom: 12px;
       text-shadow:
         0 0 8px rgba(255,255,255,.15),
         0 0 25px rgba(255,140,0,.2);
     }
 
     .gold {
-      background: linear-gradient(
-        180deg,
-        #fff9b0 0%,
-        #ffd700 35%,
-        #ff9d00 70%,
-        #b66a00 100%
-      );
+      background:
+        linear-gradient(
+          180deg,
+          #fff9b0 0%,
+          #ffd700 35%,
+          #ff9d00 70%,
+          #b66a00 100%
+        );
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
@@ -376,9 +479,11 @@
       0% {
         background-position: 0% 50%;
       }
+
       50% {
         background-position: 100% 50%;
       }
+
       100% {
         background-position: 0% 50%;
       }
@@ -387,8 +492,8 @@
     .hero p {
       color: #ddd;
       font-size: clamp(14px, 3vw, 20px);
-      letter-spacing: 5px;
-      margin-bottom: 35px;
+      letter-spacing: 4px;
+      margin-bottom: 28px;
     }
 
     /* =========================
@@ -399,7 +504,7 @@
       display: flex;
       justify-content: center;
       flex-wrap: wrap;
-      gap: 15px;
+      gap: 12px;
     }
 
     .btn {
@@ -407,7 +512,7 @@
       align-items: center;
       justify-content: center;
       min-width: 170px;
-      padding: 15px 25px;
+      padding: 14px 24px;
       border-radius: 50px;
       text-decoration: none;
       font-weight: bold;
@@ -418,24 +523,27 @@
 
     .goldbtn {
       color: #000;
-      background: linear-gradient(
-        135deg,
-        #fff2a0,
-        #ffd700,
-        #ff9800,
-        #ffd700
-      );
+      background:
+        linear-gradient(
+          135deg,
+          #fff2a0,
+          #ffd700,
+          #ff9800,
+          #ffd700
+        );
       background-size: 300% 300%;
       box-shadow:
         0 0 12px rgba(255,215,0,.6),
         0 0 35px rgba(255,69,0,.25);
-      animation: buttonFire 2s ease infinite;
+      animation:
+        buttonFire 2s ease infinite;
     }
 
     @keyframes buttonFire {
       0%,100% {
         background-position: 0% 50%;
       }
+
       50% {
         background-position: 100% 50%;
       }
@@ -473,22 +581,24 @@
     .fire-line {
       width: 180px;
       height: 4px;
-      margin: 20px auto;
+      margin: 16px auto;
       border-radius: 50%;
-      background: linear-gradient(
-        90deg,
-        transparent,
-        var(--red),
-        var(--orange),
-        var(--gold),
-        var(--orange),
-        var(--red),
-        transparent
-      );
+      background:
+        linear-gradient(
+          90deg,
+          transparent,
+          var(--red),
+          var(--orange),
+          var(--gold),
+          var(--orange),
+          var(--red),
+          transparent
+        );
       box-shadow:
         0 0 10px var(--fire),
         0 0 25px var(--gold);
-      animation: lineFire 1.5s ease-in-out infinite alternate;
+      animation:
+        lineFire 1.5s ease-in-out infinite alternate;
     }
 
     @keyframes lineFire {
@@ -496,6 +606,7 @@
         transform: scaleX(.65);
         opacity: .6;
       }
+
       to {
         transform: scaleX(1.25);
         opacity: 1;
@@ -510,16 +621,20 @@
     .products {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 22px;
+      gap: 18px;
     }
 
     .card,
     .product-card {
       position: relative;
-      padding: 30px 22px;
+      padding: 25px 20px;
       border-radius: 22px;
       background:
-        linear-gradient(145deg, rgba(255,255,255,.06), rgba(255,255,255,.015)),
+        linear-gradient(
+          145deg,
+          rgba(255,255,255,.06),
+          rgba(255,255,255,.015)
+        ),
         #101010;
       border: 1px solid rgba(255,215,0,.22);
       text-align: center;
@@ -538,23 +653,29 @@
       left: -50%;
       width: 200%;
       height: 120px;
-      background: linear-gradient(
-        90deg,
-        transparent,
-        rgba(255,215,0,.35),
-        rgba(255,69,0,.4),
-        transparent
-      );
+      background:
+        linear-gradient(
+          90deg,
+          transparent,
+          rgba(255,215,0,.35),
+          rgba(255,69,0,.4),
+          transparent
+        );
       transform: rotate(-10deg);
       animation: cardFire 4s linear infinite;
     }
 
     @keyframes cardFire {
       0% {
-        transform: translateX(-40%) rotate(-10deg);
+        transform:
+          translateX(-40%)
+          rotate(-10deg);
       }
+
       100% {
-        transform: translateX(40%) rotate(-10deg);
+        transform:
+          translateX(40%)
+          rotate(-10deg);
       }
     }
 
@@ -570,27 +691,33 @@
 
     .icon,
     .product-icon {
-      font-size: 48px;
-      margin-bottom: 18px;
+      font-size: 45px;
+      margin-bottom: 14px;
       position: relative;
       z-index: 1;
-      animation: iconFloat 2.5s ease-in-out infinite alternate;
+      animation:
+        iconFloat 2.5s ease-in-out infinite alternate;
     }
 
     @keyframes iconFloat {
       from {
-        transform: translateY(0) rotate(-2deg);
+        transform:
+          translateY(0)
+          rotate(-2deg);
       }
+
       to {
-        transform: translateY(-7px) rotate(2deg);
+        transform:
+          translateY(-7px)
+          rotate(2deg);
       }
     }
 
     .card h3,
     .product-card h3 {
       color: var(--gold);
-      font-size: 21px;
-      margin-bottom: 12px;
+      font-size: 20px;
+      margin-bottom: 9px;
       position: relative;
       z-index: 1;
     }
@@ -598,7 +725,7 @@
     .card p,
     .product-card p {
       color: #bbb;
-      line-height: 1.7;
+      line-height: 1.6;
       font-size: 14px;
       position: relative;
       z-index: 1;
@@ -614,22 +741,23 @@
 
     .product-card {
       cursor: pointer;
-      min-height: 260px;
+      min-height: 240px;
     }
 
     .product-btn {
       display: inline-block;
-      margin-top: 20px;
-      padding: 11px 18px;
+      margin-top: 16px;
+      padding: 10px 17px;
       border-radius: 30px;
       text-decoration: none;
       color: #000;
-      background: linear-gradient(
-        135deg,
-        #fff1a0,
-        #ffd700,
-        #ff8c00
-      );
+      background:
+        linear-gradient(
+          135deg,
+          #fff1a0,
+          #ffd700,
+          #ff8c00
+        );
       font-size: 13px;
       font-weight: bold;
       position: relative;
@@ -653,12 +781,13 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      min-height: 80vh;
     }
 
     .contact-box {
       width: min(700px, 100%);
       text-align: center;
-      padding: 45px 25px;
+      padding: 40px 25px;
       border-radius: 30px;
       background:
         linear-gradient(
@@ -683,27 +812,33 @@
       opacity: .035;
       right: -25px;
       bottom: -50px;
-      animation: fireEmoji 2s ease-in-out infinite alternate;
+      animation:
+        fireEmoji 2s ease-in-out infinite alternate;
     }
 
     @keyframes fireEmoji {
       from {
-        transform: scale(.9) rotate(-5deg);
+        transform:
+          scale(.9)
+          rotate(-5deg);
       }
+
       to {
-        transform: scale(1.1) rotate(5deg);
+        transform:
+          scale(1.1)
+          rotate(5deg);
       }
     }
 
     .title {
-      margin-bottom: 30px;
+      margin-bottom: 22px;
     }
 
     .info {
       color: #ddd;
       font-size: 17px;
       line-height: 1.8;
-      margin: 18px 0;
+      margin: 14px 0;
       position: relative;
       z-index: 1;
     }
@@ -732,7 +867,7 @@
     ========================= */
 
     footer {
-      padding: 30px 20px;
+      padding: 25px 20px;
       text-align: center;
       background: #050505;
       border-top: 1px solid rgba(255,215,0,.2);
@@ -744,12 +879,14 @@
     }
 
     /* =========================
-       REVEAL ANIMATION
+       REVEAL
     ========================= */
 
     .reveal {
       opacity: 0;
-      transform: translateY(50px) scale(.96);
+      transform:
+        translateY(50px)
+        scale(.96);
       transition:
         opacity .8s ease,
         transform .8s ease;
@@ -757,11 +894,13 @@
 
     .reveal.active {
       opacity: 1;
-      transform: translateY(0) scale(1);
+      transform:
+        translateY(0)
+        scale(1);
     }
 
     /* =========================
-       FLEX GALLERY MODAL
+       GALLERY MODAL
     ========================= */
 
     .gallery-modal {
@@ -771,9 +910,13 @@
       display: none;
       align-items: center;
       justify-content: center;
-      padding: 25px;
+      padding: 20px;
       background:
-        radial-gradient(circle at center, rgba(255,69,0,.08), rgba(0,0,0,.96) 65%);
+        radial-gradient(
+          circle at center,
+          rgba(255,69,0,.08),
+          rgba(0,0,0,.96) 65%
+        );
       backdrop-filter: blur(10px);
     }
 
@@ -786,6 +929,7 @@
       from {
         opacity: 0;
       }
+
       to {
         opacity: 1;
       }
@@ -807,7 +951,7 @@
 
     .gallery-content h2 {
       text-align: center;
-      margin-bottom: 30px;
+      margin-bottom: 25px;
     }
 
     .gallery-close {
@@ -883,6 +1027,9 @@
     .image-viewer img {
       max-width: 95%;
       max-height: 90vh;
+      width: auto;
+      height: auto;
+      object-fit: contain;
       border-radius: 15px;
       border: 2px solid var(--gold);
       box-shadow:
@@ -899,6 +1046,7 @@
       border: none;
       font-size: 38px;
       cursor: pointer;
+      z-index: 10;
     }
 
     /* =========================
@@ -914,26 +1062,29 @@
     }
 
     ::-webkit-scrollbar-thumb {
-      background: linear-gradient(
-        var(--fire),
-        var(--gold)
-      );
+      background:
+        linear-gradient(
+          var(--fire),
+          var(--gold)
+        );
       border-radius: 10px;
     }
 
     /* =========================
-       MOBILE
+       TABLET
     ========================= */
 
     @media (max-width: 850px) {
+
       nav {
         gap: 18px;
         overflow-x: auto;
         justify-content: flex-start;
+        scrollbar-width: none;
       }
 
-      nav a {
-        white-space: nowrap;
+      nav::-webkit-scrollbar {
+        display: none;
       }
 
       .cards {
@@ -947,62 +1098,248 @@
       .flex-gallery {
         grid-template-columns: repeat(2, 1fr);
       }
+
+      section {
+        min-height: auto;
+      }
+
     }
 
+    /* =========================
+       MOBILE
+    ========================= */
+
     @media (max-width: 560px) {
+
       section {
-        padding-left: 15px;
-        padding-right: 15px;
+        min-height: auto;
+        padding:
+          80px
+          14px
+          45px;
+      }
+
+      #home {
+        min-height: 100svh;
+        padding:
+          90px
+          14px
+          40px;
       }
 
       nav {
-        min-height: 60px;
-        padding: 10px 15px;
-        gap: 18px;
+        min-height: 58px;
+        padding: 9px 15px;
+        gap: 20px;
+        justify-content: flex-start;
       }
 
       nav a {
         font-size: 12px;
       }
 
+      .hero-logo {
+        width: min(180px, 58vw);
+        max-height: 180px;
+        margin-bottom: 14px;
+      }
+
       .hero h1 {
-        font-size: 48px;
-        letter-spacing: 2px;
+        font-size: clamp(42px, 14vw, 58px);
+        letter-spacing: 1px;
+        line-height: .95;
+        margin-bottom: 9px;
       }
 
       .hero p {
-        font-size: 12px;
-        letter-spacing: 3px;
+        font-size: 11px;
+        letter-spacing: 2px;
+        margin-bottom: 22px;
       }
 
-      .cards,
-      .products {
-        grid-template-columns: 1fr;
+      .fire-line {
+        width: 145px;
+        height: 3px;
+        margin: 12px auto;
       }
 
       .hero-buttons {
         flex-direction: column;
         align-items: center;
+        gap: 10px;
       }
 
       .btn {
         width: min(280px, 100%);
+        min-width: 0;
+        padding: 13px 20px;
+      }
+
+      .section-title {
+        margin-bottom: 25px;
+      }
+
+      h2 {
+        font-size: 32px;
+        margin-bottom: 7px;
+      }
+
+      .section-title p {
+        font-size: 13px;
+        line-height: 1.5;
+      }
+
+      .cards,
+      .products {
+        grid-template-columns: 1fr;
+        gap: 14px;
+      }
+
+      .card,
+      .product-card {
+        padding: 22px 18px;
+      }
+
+      .product-card {
+        min-height: auto;
+      }
+
+      .icon,
+      .product-icon {
+        font-size: 40px;
+        margin-bottom: 11px;
+      }
+
+      .card h3,
+      .product-card h3 {
+        font-size: 19px;
+      }
+
+      .card p,
+      .product-card p {
+        font-size: 13px;
+        line-height: 1.55;
+      }
+
+      .product-btn {
+        margin-top: 13px;
+      }
+
+      #contact {
+        min-height: auto;
+        padding-top: 55px;
+        padding-bottom: 55px;
+      }
+
+      .contact-box {
+        padding: 30px 17px;
+      }
+
+      .contact-box .title {
+        font-size: 30px;
+      }
+
+      .info {
+        font-size: 15px;
+        margin: 11px 0;
+      }
+
+      .info strong {
+        font-size: 19px;
+      }
+
+      .gallery-modal {
+        padding: 10px;
+      }
+
+      .gallery-content {
+        width: 100%;
+        max-height: 92vh;
+        padding: 55px 12px 18px;
+        border-radius: 18px;
+      }
+
+      .gallery-content h2 {
+        font-size: 28px;
+        margin-bottom: 20px;
+      }
+
+      .gallery-close {
+        top: 10px;
+        right: 10px;
+        width: 40px;
+        height: 40px;
       }
 
       .flex-gallery {
         grid-template-columns: 1fr;
-      }
-
-      .gallery-content {
-        padding: 20px 15px;
+        gap: 12px;
       }
 
       .flex-gallery img {
-        height: 230px;
+        width: 100%;
+        height: auto;
+        max-height: 400px;
+        object-fit: contain;
       }
+
+      .image-viewer {
+        padding: 10px;
+      }
+
+      .image-viewer img {
+        max-width: 96%;
+        max-height: 82vh;
+      }
+
+      .image-viewer-close {
+        top: 10px;
+        right: 15px;
+        font-size: 32px;
+      }
+
+      footer {
+        padding: 22px 15px;
+        font-size: 13px;
+      }
+
     }
 
+    /* =========================
+       SMALL PHONES
+    ========================= */
+
+    @media (max-width: 380px) {
+
+      .hero h1 {
+        font-size: 39px;
+      }
+
+      .hero p {
+        font-size: 10px;
+        letter-spacing: 1.5px;
+      }
+
+      h2 {
+        font-size: 29px;
+      }
+
+      nav {
+        gap: 16px;
+      }
+
+      nav a {
+        font-size: 11px;
+      }
+
+    }
+
+    /* =========================
+       REDUCED MOTION
+    ========================= */
+
     @media (prefers-reduced-motion: reduce) {
+
       *,
       *::before,
       *::after {
@@ -1011,16 +1348,21 @@
         scroll-behavior: auto !important;
         transition-duration: .01ms !important;
       }
+
     }
+
   </style>
+
 </head>
 
 <body>
 
   <!-- FIRE BACKGROUND -->
+
   <div class="fire-background"></div>
 
   <div class="particles">
+
     <span class="particle"></span>
     <span class="particle"></span>
     <span class="particle"></span>
@@ -1033,20 +1375,27 @@
     <span class="particle"></span>
     <span class="particle"></span>
     <span class="particle"></span>
+
   </div>
+
 
   <!-- =========================
        NAVBAR
   ========================= -->
 
   <header>
+
     <nav>
+
       <a href="#home">Home</a>
       <a href="#services">Services</a>
       <a href="#products">Products</a>
       <a href="#contact">Contact</a>
+
     </nav>
+
   </header>
+
 
   <!-- =========================
        HERO
@@ -1097,6 +1446,7 @@
 
   </section>
 
+
   <!-- =========================
        SERVICES
   ========================= -->
@@ -1120,6 +1470,7 @@
       <div class="cards">
 
         <div class="card reveal">
+
           <div class="icon">🖨️</div>
 
           <h3>Flex Printing</h3>
@@ -1128,9 +1479,12 @@
             Quality flex printing for banners,
             advertisements and events.
           </p>
+
         </div>
 
+
         <div class="card reveal">
+
           <div class="icon">🖼️</div>
 
           <h3>Photo Frames</h3>
@@ -1139,9 +1493,12 @@
             Photo printing and custom
             photo frame work.
           </p>
+
         </div>
 
+
         <div class="card reveal">
+
           <div class="icon">💳</div>
 
           <h3>Visiting Cards</h3>
@@ -1150,9 +1507,12 @@
             Professional visiting card
             designing and printing.
           </p>
+
         </div>
 
+
         <div class="card reveal">
+
           <div class="icon">🎨</div>
 
           <h3>Digital Designing</h3>
@@ -1161,6 +1521,7 @@
             Creative posters, invitations,
             banners and digital designs.
           </p>
+
         </div>
 
       </div>
@@ -1168,6 +1529,7 @@
     </div>
 
   </section>
+
 
   <!-- =========================
        PRODUCTS
@@ -1188,6 +1550,7 @@
         </p>
 
       </div>
+
 
       <div class="products">
 
@@ -1311,7 +1674,10 @@
 
         <!-- VISITING CARD -->
 
-        <div class="product-card reveal">
+        <div
+          class="product-card reveal"
+          onclick="openVisitingGallery()"
+        >
 
           <div class="product-icon">💳</div>
 
@@ -1321,14 +1687,9 @@
             Professional Visiting Card Printing
           </p>
 
-          <a
-            class="product-btn"
-            href="https://wa.me/919488788066?text=Hi%20GOPI%20DIGITAL%2C%20I%20need%20a%20Visiting%20Card"
-            target="_blank"
-            rel="noopener"
-          >
-            Enquire on WhatsApp
-          </a>
+          <span class="product-btn">
+            View Visiting Cards
+          </span>
 
         </div>
 
@@ -1337,6 +1698,7 @@
     </div>
 
   </section>
+
 
   <!-- =========================
        CONTACT
@@ -1364,8 +1726,10 @@
       </div>
 
       <div class="info">
+
         📸
         Instagram:
+
         <a
           class="instagram"
           href="https://www.instagram.com/sri_gopi_arts/"
@@ -1374,6 +1738,7 @@
         >
           @sri_gopi_arts
         </a>
+
       </div>
 
       <br>
@@ -1390,6 +1755,7 @@
     </div>
 
   </section>
+
 
   <!-- =========================
        FOOTER
@@ -1463,6 +1829,49 @@
         <img
           src="flex6.jpg.jpg"
           alt="Flex Printing 6"
+          onclick="openImage(this.src)"
+        >
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- =========================
+       VISITING CARD GALLERY
+  ========================= -->
+
+  <div
+    class="gallery-modal"
+    id="visitingGallery"
+    onclick="closeVisitingGalleryOutside(event)"
+  >
+
+    <div class="gallery-content">
+
+      <button
+        class="gallery-close"
+        onclick="closeVisitingGallery()"
+        aria-label="Close Visiting Card Gallery"
+      >
+        ✕
+      </button>
+
+      <h2>VISITING CARD</h2>
+
+      <div class="flex-gallery">
+
+        <img
+          src="01.jpg"
+          alt="GOPI DIGITAL Visiting Card 1"
+          onclick="openImage(this.src)"
+        >
+
+        <img
+          src="02.jpg"
+          alt="GOPI DIGITAL Visiting Card 2"
           onclick="openImage(this.src)"
         >
 
@@ -1553,6 +1962,7 @@
       gallery.classList.add("show");
 
       document.body.style.overflow = "hidden";
+
     }
 
 
@@ -1564,13 +1974,55 @@
       gallery.classList.remove("show");
 
       document.body.style.overflow = "";
+
     }
 
 
     function closeGalleryOutside(event) {
 
       if (event.target.id === "flexGallery") {
+
         closeFlexGallery();
+
+      }
+
+    }
+
+
+    /* =========================
+       VISITING CARD GALLERY
+    ========================= */
+
+    function openVisitingGallery() {
+
+      const gallery =
+        document.getElementById("visitingGallery");
+
+      gallery.classList.add("show");
+
+      document.body.style.overflow = "hidden";
+
+    }
+
+
+    function closeVisitingGallery() {
+
+      const gallery =
+        document.getElementById("visitingGallery");
+
+      gallery.classList.remove("show");
+
+      document.body.style.overflow = "";
+
+    }
+
+
+    function closeVisitingGalleryOutside(event) {
+
+      if (event.target.id === "visitingGallery") {
+
+        closeVisitingGallery();
+
       }
 
     }
@@ -1618,6 +2070,7 @@
         if (event.key === "Escape") {
 
           closeFlexGallery();
+          closeVisitingGallery();
           closeImage();
 
         }
@@ -1665,7 +2118,8 @@
         spark.animate(
           [
             {
-              transform: "translate(0,0) scale(1)",
+              transform:
+                "translate(0,0) scale(1)",
               opacity: 1
             },
             {
@@ -1700,7 +2154,9 @@
         function() {
           this.style.transform = "scale(.97)";
         },
-        { passive: true }
+        {
+          passive: true
+        }
       );
 
       link.addEventListener(
@@ -1708,7 +2164,9 @@
         function() {
           this.style.transform = "";
         },
-        { passive: true }
+        {
+          passive: true
+        }
       );
 
     });
@@ -1717,4 +2175,3 @@
 
 </body>
 </html>
-```
